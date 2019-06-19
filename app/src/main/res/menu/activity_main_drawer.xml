@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_att"
+            android:checked="true"
+            android:icon="@drawable/ic_face"
+            android:title="Take Attendance" />
+        <item
+            android:id="@+id/nav_att_report"
+            android:icon="@drawable/ic_analytics"
+            android:title="Attendance Reports" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_seminar"
+            android:title="Training" />
+        <item
+            android:id="@+id/nav_add_student"
+            android:icon="@drawable/ic_add_user"
+            android:title="Add Student" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report"
+            android:title="Report" />
+
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="@string/menu_share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="@string/menu_send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
